@@ -3,8 +3,8 @@
  * @version 0.1.1
  * @description A plugin that makes you give someone(or you) a badge (client-side).
  * @author TW-Knrl
- * @source https://github.com/TW-Knrl/DiscordModding/Plugins/GiveMeBadges/
- * @updateUrl https://raw.githubusercontent.com/TW-Knrl/DiscordModding/Plugins/GiveMeBadges/GiveMeBadges.plugin.js
+ * @source https://github.com/TW-Knrl/DiscordModding/tree/main/Plugins/GiveMeBadges
+ * @updateUrl https://raw.githubusercontent.com/TW-Knrl/DiscordModding/main/Plugins/GiveMeBadges/GiveMeBadges.plugin.js
  */
 /*@cc_on
 @if (@_jscript)
@@ -39,13 +39,13 @@ const config = {
 			"discord_id": "956985663188779038",
 			"github_username": "TW-Knrl"
 		}],
-		"github": "https://github.com/TW-Knrl/DiscordModding/plugins/GiveMeBadges",
-		"github_raw": "https://raw.githubusercontent.com/TW-Knrl/DiscordModding/GiveMeBadges/GiveMeBadges.plugin.js"
+		"github": "https://github.com/TW-Knrl/DiscordModding/tree/main/Plugins/GiveMeBadges",
+		"github_raw": "https://raw.githubusercontent.com/TW-Knrl/DiscordModding/main/Plugins/GiveMeBadges/GiveMeBadges.plugin.js"
 	},
 	"build": {
 		"zlibrary": true,
 		"copy": true,
-		"production": falze,
+		"production": false,
 		"scssHash": false,
 		"alias": {
 			"components": "components/index.js"
